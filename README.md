@@ -25,3 +25,11 @@ TypeError: Class extends value undefined is not a constructor or null
     at require (internal/modules/cjs/helpers.js:88:18)
     at /home/wyf/umd-test/node_modules/yaml-language-server/lib/umd/languageservice/services/documentSymbols.js:19:30
 ```
+
+For 1.7.0, it works fine. One can change the version of yaml-language-server in package.json to 1.7.0.
+Then, edit the imports in index.ts file according to comments and run
+```
+It will show something similiar to:
+
+``` 
+again. There shoulnd't be any errors.

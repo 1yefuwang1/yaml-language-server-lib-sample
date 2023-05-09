@@ -1,6 +1,9 @@
 import { YAMLValidation } from "yaml-language-server/lib/umd/languageservice/services/yamlValidation";
 import { YAMLSchemaService } from "yaml-language-server/lib/umd/languageservice/services/yamlSchemaService";
+// The following line is for 1.12.0. Uncomment if using 1.7.0
 import { Telemetry } from "yaml-language-server/lib/umd/languageservice/telemetry";
+// The following line is for 1.7.0. Uncomment if using 1.12.0
+// import { Telemetry } from "yaml-language-server/lib/umd/languageserver/telemetry";
 
 // A telemetry class that does nothing, used to initialize YAMLValidation below.
 class DummyTelemetry {
