@@ -1,0 +1,1 @@
+This repo provides a minimum code that reproduce the TypeError when using yaml-language-server@1.12.0 as a umd library.

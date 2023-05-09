@@ -1,0 +1,22 @@
+{
+  "name": "umd-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc -p ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "yaml-language-server": "^1.12.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^18.15.11",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4"
+  }
+}
